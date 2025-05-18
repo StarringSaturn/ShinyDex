@@ -10,7 +10,7 @@ title: Shiny Paldea (Art) Showcase
 [Paldea](https://starringsaturn.github.io/ShinyDex/Paldea) [Miscellaneous](https://starringsaturn.github.io/ShinyDex/Misc)
 <div>
 {% for image in site.static_files %}
-{% if image.path contains '{aldea/shinydex' %}
+{% if image.path contains '{Paldea/shinydex' %}
 <img src="{{ site.baseurl }}{{ image.path }}" width = "150px" height = "300px" />
 {% endif %}
 {% endfor %}
